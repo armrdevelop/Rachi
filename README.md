@@ -2,7 +2,7 @@
 
 ## 💻 Projeto
 
-Criar a homepage do projeto Rachi. Versão desktop e mobile.
+Criando a homepage do projeto Rachi. Versão desktop e mobile.
 
 ## 💻 Estrutura
 
