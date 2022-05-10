@@ -4,7 +4,7 @@
 
 Criar a homepage do projeto Rachi. Versão desktop e mobile.
 
-## Estrutura
+## 💻 Estrutura
 
 O que foi usado na estrutura deste template:
 

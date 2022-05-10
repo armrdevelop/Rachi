@@ -1,3 +1,13 @@
+//import variables scss
+@import 'variables.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Sora:300,regular,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:300,regular,600,700);
+
 * {
   margin: 0;
   padding: 0;
@@ -15,19 +25,31 @@ html {
 }
 
 :root {
-  --background: #f5f6fa;
+  --background: #fff;
 
-  --primary: #373D4F;
-  --secondary: #9098AE;
+  --blue: #0f9afe;
+  --gray-200: #293145;
+  //colors
+  --white: #fff;
+  --white-200: #eff8ff;
+  --gray-light: #dbdbdb;
+  --gray: #6e7275;
+
+  //fonts
+  --font1: 'Sora', sans-serif;
+  --font2: 'Inter', sans-serif;
 }
 
 body {
   background: var(--background);
 }
 
-body, button, textarea, input {
-  color: var(--primary);
-  font: 400 1rem "Roboto", sans-serif;
+body,
+button,
+textarea,
+input {
+  color: var(--blue);
+  font: 400 1rem 'Roboto', sans-serif;
 }
 
 a {
