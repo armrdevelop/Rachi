@@ -1,4 +1,4 @@
-import { Menuhamburger } from 'static/icons'
+import { LogoNav, MenuHamburger } from 'static/icons'
 
 const MENU = ['Funcionalidades', 'App', 'Planos', 'Contato']
 
@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="navbar container-fluid bg-color">
         <div className="container flex items-center justify-between py-5 ">
           <div className="logo">
-            <img src="/assets/image/logo.png" alt="logo" />
+            <LogoNav alt="logo" />
           </div>
 
           <nav className="navbar-links hidden w-full md:block md:w-auto">
@@ -26,7 +26,7 @@ export const Header = () => {
             </ul>
           </nav>
           <button className="button md:hidden">
-            <Menuhamburger />
+            <MenuHamburger />
           </button>
         </div>
       </div>
