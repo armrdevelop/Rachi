@@ -31,15 +31,15 @@ export const Header = () => {
         </div>
       </div>
       <section className="container-fluid bg-whiter-200">
-        <div className="container min-h-[640px] bg-[url('/assets/image/bgHeader.png')] bg-no-repeat bg-[center_right]">
-          <div className="container-left w-1/2 font-['Sora'] font-bold text-grayr-300 flex items-start justify-center flex-col">
-            <p className="text-5xl mb-[50px] leading-60">
+        <div className="container md:min-h-[640px] min-h-[387px] bg-[url('/assets/image/bgHeader.png')] bg-no-repeat md:bg-[center_right] bg-[center_bottom] bg-contain">
+          <div className="container-left md:w-1/2 font-['Sora'] font-bold text-grayr-300 flex items-start lg:justify-center justify-start  pt-10 px-3 flex-col">
+            <p className="md:text-5xl text-2xl md:mb-12 mb-4 md:leading-60 leading-30">
               Rachi, <br />
               é tudo que você
               <br />
               precisa em um só lugar.
             </p>
-            <button className="button font-bold rounded-full bg-bluer text-whiter-100 px-9 py-4 text-xl">
+            <button className="button font-bold rounded-full bg-bluer text-whiter-100 md:px-9 md:py-4 py-2 px-6 md:text-xl text-sm">
               <span>Cadastrar-se</span>
             </button>
           </div>
