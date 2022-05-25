@@ -1,9 +1,12 @@
 import Head from 'next/head'
-import { GetStaticProps } from 'next'
+import { GetStaticProps, NextPage } from 'next'
 
 import styles from 'styles/home.module.scss'
 import { Header } from 'components/Header'
 
+type PageProps = {
+  title: string
+}
 const Home: NextPage<PageProps> = ({ title }) => (
   <div className="site-content">
     <Head>
