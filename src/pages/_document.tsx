@@ -14,6 +14,15 @@ export default class MyDocument extends Document {
           <meta property="og:locale" content="pt_BR" />
           <meta property="og:site_name" content="Rachi" />
           <meta name="author" content="ArmrDev" />
+
+          <link
+            href="https://fonts.googleapis.com/css?family=Sora:300,regular,600,700&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Inter:300,regular,600,700&display=swap"
+            rel="stylesheet"
+          />
         </Head>
 
         <body>
