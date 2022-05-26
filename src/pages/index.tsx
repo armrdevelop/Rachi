@@ -3,6 +3,7 @@ import { GetStaticProps, NextPage } from 'next'
 
 import styles from 'styles/home.module.scss'
 import { Header } from 'components/Header'
+import { Beneficios } from 'components/Beneficios'
 
 type PageProps = {
   title: string
@@ -13,6 +14,7 @@ const Home: NextPage<PageProps> = ({ title }) => (
       <title>{title}</title>
     </Head>
     <Header />
+    <Beneficios />
   </div>
 )
 

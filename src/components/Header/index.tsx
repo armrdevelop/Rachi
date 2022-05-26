@@ -16,7 +16,7 @@ export const Header = () => {
               {MENU.map((item, index) => (
                 <li key={item}>
                   <a
-                    href="#"
+                    href={`#${item.toLowerCase()}`}
                     className="block text-grayr-200 font-medium leading-5"
                   >
                     {item}
@@ -31,7 +31,7 @@ export const Header = () => {
         </div>
       </div>
       <section className="container-fluid bg-whiter-200">
-        <div className="container md:min-h-[640px] min-h-[387px] bg-[url('/assets/image/bgHeader.png')] bg-no-repeat md:bg-[center_right] bg-[center_bottom] bg-contain">
+        <div className="container md:min-h-[640px] min-h-[387px] bg-[url('/assets/image/bgHeader.png')] bg-no-repeat md:bg-[center_right] bg-[center_bottom] bg-auto">
           <div className="container-left md:w-1/2 font-['Sora'] font-bold text-grayr-300 flex items-start lg:justify-center justify-start  pt-10 px-3 flex-col">
             <p className="md:text-5xl text-2xl md:mb-12 mb-4 md:leading-60 leading-30">
               Rachi, <br />
