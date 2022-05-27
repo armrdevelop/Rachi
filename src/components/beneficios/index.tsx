@@ -12,7 +12,7 @@ const BENEFICIOS = [
     id: 2,
     title: '100% gratuito',
     description:
-      'Não cobramos nenhum custo para você, somente para nossos parceiros.',
+      'Sem nenhum custo para você, somente para os planos para empresas.',
     image: <SecurityIcon />
   },
   {
@@ -33,10 +33,10 @@ export const Beneficios = () => {
         <div className="title-section font-bold text-4xl text-grayr-300">
           <h2>Como funciona</h2>
         </div>
-        <div className="itens-container md:flex-row flex-col flex justify-center items-center mt-20">
+        <div className="itens-container md:flex-row flex-col flex justify-center items-center md:mt-20 mt-5">
           {BENEFICIOS.map(item => (
             <div
-              className="item-beneficios flex flex-col justify-center items-center text-center px-16 max-w-[400px]"
+              className="item-beneficios flex flex-col justify-center items-center text-center md:mt-0 mt-5 px-16 max-w-[400px]"
               key={item.id}
             >
               <div className="image">{item.image}</div>
