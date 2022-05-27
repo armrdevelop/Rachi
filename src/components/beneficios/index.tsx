@@ -1,6 +1,6 @@
 import { EmojiIcon, IconContact, SecurityIcon } from 'static/icons'
 
-const BENEFICIOS = [
+const BENEFICIOSMENU = [
   {
     id: 1,
     title: 'Crie conexões',
@@ -34,7 +34,7 @@ export const Beneficios = () => {
           <h2>Como funciona</h2>
         </div>
         <div className="itens-container md:flex-row flex-col flex justify-center items-center md:mt-20 mt-5">
-          {BENEFICIOS.map(item => (
+          {BENEFICIOSMENU.map(item => (
             <div
               className="item-beneficios flex flex-col justify-center items-center text-center md:mt-0 mt-5 px-16 max-w-[400px]"
               key={item.id}
