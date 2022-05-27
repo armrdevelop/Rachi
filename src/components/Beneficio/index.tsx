@@ -12,7 +12,7 @@ const BENEFICIOSMENU = [
     id: 2,
     title: '100% gratuito',
     description:
-      'Sem nenhum custo para você, somente para os planos para empresas.',
+      'Sem nenhum custo para você, somente os planos para empresas.',
     image: <SecurityIcon />
   },
   {

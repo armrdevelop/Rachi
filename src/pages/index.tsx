@@ -5,6 +5,7 @@ import styles from 'styles/home.module.scss'
 import { Header } from 'components/Header'
 import { Beneficio } from 'components/Beneficio'
 import { Store } from 'components/Store'
+import { Planos } from 'components/Planos'
 
 type PageProps = {
   title: string
@@ -17,6 +18,7 @@ const Home: NextPage<PageProps> = ({ title }) => (
     <Header />
     <Beneficio />
     <Store />
+    <Planos />
   </div>
 )
 
