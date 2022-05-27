@@ -23,7 +23,7 @@ const BENEFICIOSMENU = [
   }
 ]
 
-export const Beneficios = () => {
+export const Beneficio = () => {
   return (
     <section
       className="container-fluid bg-whiter-100  flex justify-center items-center flex-col "
