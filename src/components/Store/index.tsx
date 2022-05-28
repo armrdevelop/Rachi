@@ -4,7 +4,7 @@ export const Store = () => {
   return (
     <section
       className="container-fluid bg-whiter-200 md:min-h-[475px]  flex justify-center items-center flex-col "
-      id="store"
+      id="app"
     >
       <div className="container flex md:flex-row flex-col md:justify-start justify-center items-center md:min-h-[475px] min-h-[259px]  md:bg-[url('/assets/image/laptop.png')] bg-no-repeat md:bg-[center_right] bg-[center_bottom] md:bg-auto bg-contain">
         <div className="item-content md:w-1/2 text-center md:text-left">

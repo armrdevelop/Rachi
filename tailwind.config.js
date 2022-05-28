@@ -19,6 +19,7 @@ module.exports = {
     lineHeight: {
       'extra-loose': '2.5',
       60: '3.75rem',
+      25: '1.5625rem',
       30: '1.875rem',
     },
     extend: {}

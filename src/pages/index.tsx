@@ -6,6 +6,7 @@ import { Header } from 'components/Header'
 import { Beneficio } from 'components/Beneficio'
 import { Store } from 'components/Store'
 import { Planos } from 'components/Planos'
+import { Contato } from 'components/Contato'
 
 type PageProps = {
   title: string
@@ -19,6 +20,7 @@ const Home: NextPage<PageProps> = ({ title }) => (
     <Beneficio />
     <Store />
     <Planos />
+    <Contato />
   </div>
 )
 
